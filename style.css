@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #EDEBEB;
+}
+
+.section-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.jumbotron {
+    background-color: #990000;
+    height: 700px;
+    box-shadow: -3px 10px 10px rgb(66, 66, 66);
+}
+
+.vertical-center {
+    height:100%;
+    width:100%;
+    text-align: center; 
+    font: 0/0 a;      
+    padding: 10%;
+}
+
+.vertical-center:before { 
+    content: " ";
+    display: inline-block;
+    vertical-align: middle; 
+    height: 100%;
+  }
+
+  .vertical-center > .container {
+    max-width: 100%;
+  
+    display: inline-block;
+    vertical-align: middle;
+    font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+.jumbotron h1 {
+    font-size: 55px;
+    color: #EDEBEB;
+    text-align: center;
+}
+
+.jumbotron h3 {
+    text-align: center;
+    color: #EDEBEB;
+}
+
+#about {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.col {
+    padding-left: 25%;
+}
+
+img {
+    height: auto;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgb(66, 66, 66);
+    float: left;
+    margin: 0px 70px 0px 100px;
+}
+
+.aboutMe {
+    text-align: center;
+    margin-right: 0px;
+    padding: 65px 40px 65px 40px;
+}
+
+.row {
+    background-color: chartreuse;
+    padding: 50px;
+}
