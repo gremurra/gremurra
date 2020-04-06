@@ -1,10 +1,34 @@
 html {
     scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
-    background-color: #EDEBEB;
+    font-family: "Arial", sans-serif;
+    background-image: url("./assets/techbackground.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+  
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-link {
+    color: white;
 }
 
 .section-title {
@@ -13,9 +37,23 @@ body {
 }
 
 .jumbotron {
-    background-color: #990000;
-    height: 700px;
-    box-shadow: -3px 10px 10px rgb(66, 66, 66);
+    background-color: rgba(211, 211, 211, 0.342);
+    height: 100%;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.btn {
+    background-color: #EDEBEB;
+    border: 2px solid navy;
+    color: navy;
+}
+
+.btn:hover {
+    background-color: navy;
+    color: #EDEBEB;
+    border: 2px solid #EDEBEB;
+    font-weight: bold;
 }
 
 .vertical-center {
@@ -42,18 +80,34 @@ body {
   }
 
 .jumbotron h1 {
-    font-size: 55px;
-    color: #EDEBEB;
-    text-align: center;
+    font: 400 100px/1.5 'Baloo Thambi 2', cursive;
+    font-weight: bold;
+    color: navy;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+
+.jumbotron h2 {
+    font: 400 50px/1.5 'Baloo Thambi 2', cursive;
+    color: navy;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
 }
 
 .jumbotron h3 {
-    text-align: center;
-    color: #EDEBEB;
+    font: 400 40px/1.5 'Baloo Thambi 2', cursive;
+    color: navy;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
 }
 
-#about {
-    text-align: center;
+.jumbotron h4 {
+    font: 400 30px/1.5 'Baloo Thambi 2', cursive;
+    color: navy;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+
+.jumbotron h5 {
+    font: 400 20px/1.5 'Baloo Thambi 2', cursive;
+    color: navy;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
 }
 
 .container {
@@ -64,22 +118,85 @@ body {
     padding-left: 25%;
 }
 
-img {
+.ProfilePic img {
     height: auto;
     width: 300px;
     border-radius: 50%;
-    box-shadow: 10px 10px 10px rgb(66, 66, 66);
+    box-shadow: 10px 10px 10px navy;
     float: left;
     margin: 0px 70px 0px 100px;
 }
 
 .aboutMe {
     text-align: center;
-    margin-right: 0px;
-    padding: 65px 40px 65px 40px;
+    background-color: rgba(211, 211, 211, 0.342);
+    padding-bottom: 35px;
 }
 
-.row {
-    background-color: chartreuse;
-    padding: 50px;
+.aboutMe p {
+    color: navy;
+    font-family: 'Baloo Thambi 2', cursive;
 }
+
+.portfolio {
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.342);
+}
+.portfolio img {
+    height: 200px;
+    width: auto;
+    border: 4px solid #EDEBEB;
+    border-radius: 10px;
+}
+
+.column {
+    width: 33%;
+    padding: 30px;
+  }
+
+.column h3 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .contact {
+    text-align: center;
+  }
+  .contact img {
+    border: 4px solid #EDEBEB;
+    border-radius: 10px;
+    margin: 10px;
+    align-items: center;
+  }
+
+  .contact img:hover {
+      height: 85px;
+      width: 95px;
+  }
+
+  .submit .btn {
+      color: navy;
+      border: 4px solid #EDEBEB;
+  }
+
+.socialpics {
+    height: 65px;
+    width: 75px;
+    display: inline-block;
+}
+
+.footer p {
+    font: 400 20px/1.5 'Baloo Thambi 2', cursive;
+    text-align: center;
+    color: navy;
+}
+
