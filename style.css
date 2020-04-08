@@ -37,10 +37,10 @@ body {
 }
 
 .jumbotron {
-    background-color: rgba(211, 211, 211, 0.342);
     height: 100%;
     width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+    background-color: rgba(110, 101, 101, 0.864);
 }
 
 .btn {
@@ -80,7 +80,7 @@ body {
   }
 
 .jumbotron h1 {
-    font: 400 100px/1.5 'Baloo Thambi 2', cursive;
+    font: 400 150px/1.5 'Baloo Thambi 2', cursive;
     font-weight: bold;
     color: navy;
     text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
@@ -124,12 +124,11 @@ body {
     border-radius: 50%;
     box-shadow: 10px 10px 10px navy;
     float: left;
-    margin: 0px 70px 0px 100px;
+    margin: 30px 70px 30px 100px;
 }
 
 .aboutMe {
     text-align: center;
-    background-color: rgba(211, 211, 211, 0.342);
     padding-bottom: 35px;
 }
 
@@ -140,7 +139,6 @@ body {
 
 .portfolio {
     text-align: center;
-    background-color: rgba(211, 211, 211, 0.342);
 }
 .portfolio img {
     height: 200px;
