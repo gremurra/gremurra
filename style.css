@@ -38,7 +38,7 @@ body {
     height: 100%;
     width: 100%;
     margin-bottom: 150px;
-    background-color: rgba(126, 128, 131, 0.75);
+    background-color: rgba(220, 228, 240, 0.50);
     background-size: cover;
 }
 
@@ -88,7 +88,7 @@ body {
   }
 
 .jumbotron h1 {
-    font: 400 150px/1.5 'Baloo Thambi 2', cursive;
+    font: 400 100px/1.5 'Baloo Thambi 2', cursive;
     font-weight: bold;
     color: navy;
     text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
