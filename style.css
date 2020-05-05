@@ -180,10 +180,12 @@ body {
     text-align: center;
   }
   .contact img {
-    border: 2px solid navy;
     border-radius: 10px;
     margin: 10px;
     align-items: center;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
   }
 
   .contact img:hover {
@@ -195,12 +197,6 @@ body {
       color: navy;
       border: 2px solid navy;
   }
-
-.socialpics {
-    height: 65px;
-    width: 75px;
-    display: inline-block;
-}
 
 .footer p {
     font: 400 20px/1.5 'Baloo Thambi 2', cursive;
