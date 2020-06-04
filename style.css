@@ -156,6 +156,10 @@ body {
     border-radius: 10px;
 }
 
+.portfolio img:hover {
+    border-radius: 50px;
+}
+
 .column {
     width: 33%;
     padding: 30px;
